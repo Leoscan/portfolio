@@ -18,7 +18,7 @@ async function getData() {
 export default async function BlogPage() {
     const data: PostsCardData[] = await getData();
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-5 md:mx-20">
             {data.map((item) => (
                 <PostCard key={item._id} {...item} />
             ))}

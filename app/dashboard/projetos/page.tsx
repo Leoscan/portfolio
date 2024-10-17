@@ -19,7 +19,7 @@ async function getData() {
 export default async function ProjectPage() {
     const data: ProjectsCardData[] = await getData();
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-5 md:mx-20">
             {data.map((item) => (
                 <ProjectCard key={item._id} {...item} />
             ))}
