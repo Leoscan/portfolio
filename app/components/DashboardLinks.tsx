@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { ArchiveIcon, FolderGit2, HomeIcon, Users2 } from "lucide-react";
+import { ArchiveIcon, FolderGit2, HomeIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";

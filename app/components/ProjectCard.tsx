@@ -1,11 +1,11 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
 import { ProjectsCardData } from "../lib/IProjects";
 import Image from "next/image";
 import BoxReveal from "@/components/ui/box-reveal";
 import BlurFade from "@/components/ui/blur-fade";
 import { Button } from "@/components/ui/button";
 
-export default function ProjectCard({ title, _id, imageUrl, tags, description, link }: ProjectsCardData) {
+export default function ProjectCard({ title, imageUrl, tags, description, link }: ProjectsCardData) {
 
 
     return (

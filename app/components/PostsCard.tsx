@@ -1,11 +1,11 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
 import { PostsCardData } from "../lib/IPosts";
 import Image from "next/image";
 import BoxReveal from "@/components/ui/box-reveal";
 import BlurFade from "@/components/ui/blur-fade";
 import { Button } from "@/components/ui/button";
 
-export default function PostCard({ title, _id, imageUrl, description, link }: PostsCardData) {
+export default function PostCard({ title, imageUrl, description, link }: PostsCardData) {
     return (
         <div>
             <a href={link} target="_blank">
