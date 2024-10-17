@@ -6,7 +6,7 @@ import BlurFade from "@/components/ui/blur-fade";
 export function MainPage() {
     return (
         <>
-            <Card className="grid grid-cols-1 lg:grid-cols-3 border-none bg-muted/100 mx-20">
+            <Card className="grid grid-cols-1 lg:grid-cols-3 border-none bg-muted/100 mx-5 md:mx-20">
                 <div className="col-span-3 lg:col-span-1 w-full">
                     <Image
                         src={me}
