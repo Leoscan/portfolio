@@ -30,7 +30,7 @@ export default function ProjectCard({ title, imageUrl, tags, description, link }
                                 <div>
                                     {tags.map((tagItem, index) => (
                                         <p key={index}
-                                            className="inline-flex items-center rounded-md bg-primary/10 px-3 py-1.5 text-xs sm:text-sm font-light text-primary ml-2"
+                                            className={`inline-flex items-center rounded-md bg-primary/10 px-3 py-1.5 text-xs sm:text-sm font-light text-primary ${index !== 0 ? 'ml-2' : ''}`}
                                         >
                                             {tagItem}
                                         </p>
